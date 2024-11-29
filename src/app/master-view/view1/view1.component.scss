@@ -1,0 +1,12 @@
+:host {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.single-select-combo {
+  height: max-content;
+  min-width: min-content;
+  flex-shrink: 0;
+}
