@@ -1,5 +1,5 @@
-import { Tag } from './tag';
 import { Category } from './category';
+import { Tag } from './tag';
 
 export interface Pet {
   id: number;
