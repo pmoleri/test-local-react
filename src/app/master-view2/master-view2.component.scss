@@ -1,0 +1,66 @@
+:host {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.expansion-panel {
+  height: max-content;
+  min-width: 0;
+  min-height: 0;
+  flex-shrink: 0;
+}
+.expansion-panel_1 {
+  width: 477px;
+  height: 231px;
+  min-width: 0;
+  min-height: 0;
+  max-width: 477px;
+  max-height: 231px;
+  flex-shrink: 0;
+}
+.row-layout {
+  display: flex;
+}
+.group {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+}
+.expansion-panel_2 {
+  width: 714px;
+  height: 231px;
+  min-width: 0;
+  min-height: 0;
+  max-width: 714px;
+  max-height: 231px;
+  flex-shrink: 0;
+}
+.text {
+  height: max-content;
+  min-width: min-content;
+}
+.icon {
+  --size: 24px;
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+}
+.avatar {
+  --ig-size: var(--ig-size-small);
+}
+.banner {
+  height: max-content;
+  min-width: min-content;
+  flex-shrink: 0;
+}
+.button {
+  --ig-size: var(--ig-size-medium);
+  height: max-content;
+}
+.list {
+  height: max-content;
+  flex-shrink: 0;
+}
